@@ -8,13 +8,13 @@ package ejecicio7b;
  *
  * @author jorge
  */
-public class Deportivos extends Vehiculo {
+public class Deportivo extends Vehiculo {
 
     // constructores
-    public Deportivos() {
+    public Deportivo() {
     }
 
-    public Deportivos(String bastidor, String marca, String modelo, String color) {
+    public Deportivo(String bastidor, String marca, String modelo, String color) {
         super(bastidor, marca, modelo, color);
     }
 

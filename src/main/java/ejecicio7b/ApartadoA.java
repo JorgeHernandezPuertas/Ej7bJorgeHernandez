@@ -76,7 +76,6 @@ public class ApartadoA {
         } catch (IOException ioe) {
             System.out.println(ioe.getMessage());
         }
-
     }
 
 }

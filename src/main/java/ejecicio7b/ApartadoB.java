@@ -63,9 +63,7 @@ public class ApartadoB {
                 v = new Furgoneta(tokens[1], tokens[2], tokens[3], tokens[4]);
             }
         }
-
         return v;
-
     }
     
     // Método que ordena la lista de vehículos por marca

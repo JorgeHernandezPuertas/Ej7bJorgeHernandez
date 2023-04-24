@@ -14,8 +14,8 @@ public class Turismo extends Vehiculo {
     public Turismo() {
     }
 
-    public Turismo(String bastidor, String marca, String modelo, String color) {
-        super(bastidor, marca, modelo, color);
+    public Turismo(String bastidor, String marca, String modelo, String color, double tarifa, boolean disponible) {
+        super(bastidor, marca, modelo, color, tarifa, disponible);
     }
     
     // toString 

@@ -14,8 +14,8 @@ public class Furgoneta extends Vehiculo {
     public Furgoneta() {
     }
 
-    public Furgoneta(String bastidor, String marca, String modelo, String color) {
-        super(bastidor, marca, modelo, color);
+    public Furgoneta(String bastidor, String marca, String modelo, String color, double tarifa, boolean disponible) {
+        super(bastidor, marca, modelo, color, tarifa, disponible);
     }
 
     // toString

@@ -56,13 +56,16 @@ public class ApartadoC {
         // Dependiendo del primer valor decido que tipo de vehiculo crear
         switch (tokens[0]) {
             case "0" -> {
-                v = new Turismo(tokens[1], tokens[2], tokens[3], tokens[4]);
+                v = new Turismo(tokens[1], tokens[2], tokens[3], tokens[4], 
+                        Double.parseDouble(tokens[5]), Boolean.parseBoolean(tokens[6]));
             }
             case "1" -> {
-                v = new Deportivo(tokens[1], tokens[2], tokens[3], tokens[4]);
+                v = new Deportivo(tokens[1], tokens[2], tokens[3], tokens[4], 
+                        Double.parseDouble(tokens[5]), Boolean.parseBoolean(tokens[6]));
             }
             case "2" -> {
-                v = new Furgoneta(tokens[1], tokens[2], tokens[3], tokens[4]);
+                v = new Furgoneta(tokens[1], tokens[2], tokens[3], tokens[4], 
+                        Double.parseDouble(tokens[5]), Boolean.parseBoolean(tokens[6]));
             }
         }
         return v;
